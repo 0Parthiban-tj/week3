@@ -97,7 +97,7 @@ public class ExcelFileStorage {
         }
 
         // Write the output to a file
-        FileOutputStream fileOut = new FileOutputStream("C:\\Users\\sourabh\\Desktop\\blog.xlsx");
+        FileOutputStream fileOut = new FileOutputStream("C:\\Users\\parthi\\Desktop\\blog.xlsx");
         
         workbook.write(fileOut);
         
@@ -112,7 +112,7 @@ public class ExcelFileStorage {
 	  public List<Blog> readExcel() {
 	  
 	  System.out.println("Reading from excel file");
-	  System.out.println("Opening the file"); String excelFilePath ="C://Users//sourabh//Downloads//blog.xlsx";
+	  System.out.println("Opening the file"); String excelFilePath ="C://Users//parthi//Downloads//blog.xlsx";
 	  
 	  try { 
 		  FileInputStream inputStream = new FileInputStream(excelFilePath);
